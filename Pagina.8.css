@@ -1,0 +1,76 @@
+body{
+    background-color: lightgray;
+}
+
+.caixa{
+    width: 300px;
+    height: 600px;
+
+    background-color: skyblue;
+
+    border: 5px solid gray;
+
+    margin: auto;
+
+    padding: 20px;
+}
+
+.hora{
+    font-size: 20px;
+}
+
+.bola{
+    width: 20px;
+    height: 20px;
+
+    background-color: black;
+
+    border-radius: 100px;
+
+    margin: auto;
+}
+
+.titulo{
+    margin-top: 20px;
+}
+
+h1{
+    background-color: white;
+
+    border-radius: 20px;
+
+    padding: 10px;
+
+    font-size: 30px;
+
+    display: inline;
+}
+
+.lupa{
+    width: 50px;
+    height: 50px;
+
+    background-color: white;
+
+    border-radius: 100px;
+
+    text-align: center;
+
+    line-height: 50px;
+
+    font-size: 30px;
+
+    float: right;
+}
+
+.texto{
+    margin-top: 60px;
+
+    color: white;
+
+    font-size: 18px;
+}
+
+p{
+    margin-bottom: 30px;
+}
