@@ -1,0 +1,37 @@
+ h1 {
+        color: rgb(219, 215, 215);
+        font-family: Jockey One;
+        font-size: 70px;
+        text-shadow: 4px 4px 5px rgba(0,0,0,0, 0.3);
+        text-align: center;
+    }
+    body {
+        background-color: #7F9DCA;
+    }
+    img {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: auto; 
+    }
+    .button {
+        color:#D5E6FF;
+        content: center;
+        color: #fff;
+        border:none;
+        border-radius: 90px;
+        padding: 15px 80px;
+        display: block;  
+        margin: 0 auto; 
+    }
+    .texto-contornado {
+        font-size: 50px;
+        -webkit-text-stroke: 1px black;         
+        color: white;                 
+}
+    .texto-contornado2 {
+        font-size: 25px;
+        -webkit-text-stroke: 0.8px black;         
+        color: white;        
+    }
