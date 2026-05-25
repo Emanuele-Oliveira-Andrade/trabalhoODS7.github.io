@@ -64,3 +64,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.texto {
+    color: white;
+    font-size: 28px;
+    font-family: Jockey One;
+    margin: 40px;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    line-height: 1.5;
+}
