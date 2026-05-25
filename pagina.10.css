@@ -1,0 +1,100 @@
+h1 {
+        color: rgb(219, 215, 215);
+        font-family: Jockey One;
+        font-size: 70px;
+        text-shadow: 4px 4px 5px rgba(0,0,0,0, 0.3);
+        text-align: center;
+    }
+
+body {
+  background-image:
+  linear-gradient(rgba(161, 161, 161, 0.5), rgba(161, 161, 161, 0.5)),
+  url("https://img.freepik.com/fotos-gratis/fundo-de-folhas-verdes-da-natureza_23-2148904321.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+}
+
+.elemento-transparente {
+  opacity: 0.5;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+.meu-botao {
+    background-color: #D5E6FF;
+    padding: 18px 180px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 90px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  backdrop-filter: blur(20px);
+}
+
+.nav-icon {
+  font-size: 34px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-icon.active {
+  color: white;
+  transform: scale(1.1);
+}
+
+.nav-icon:hover {
+  transform: scale(1.15);
+}
+
+.search-icon {
+  background: white;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 28px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.arrow-left {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 34px;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
