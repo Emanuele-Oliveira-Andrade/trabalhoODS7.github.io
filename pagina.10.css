@@ -7,9 +7,7 @@ h1 {
     }
 
 body {
-  background-image:
-  linear-gradient(rgba(161, 161, 161, 0.5), rgba(161, 161, 161, 0.5)),
-  url("https://img.freepik.com/fotos-gratis/fundo-de-folhas-verdes-da-natureza_23-2148904321.jpg");
+  background-color: #7F9DCA;
 
   background-size: cover;
   background-position: center;
