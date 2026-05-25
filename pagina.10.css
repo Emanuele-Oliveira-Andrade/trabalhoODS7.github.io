@@ -8,25 +8,16 @@ h1 {
 
 body {
   background-color: #7F9DCA;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
+  background-size: cover;          
+  background-position: center;    
+  background-repeat: no-repeat;    
+  background-attachment: fixed;    
+  height: 100vh;                 
   margin: 0;
 }
 
 .elemento-transparente {
-  opacity: 0.5;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: auto;
+  opacity: 0.5; 
 }
 
 .meu-botao {
@@ -34,40 +25,10 @@ img {
     padding: 18px 180px;
     margin: 5px;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block; 
     border-radius: 90px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.bottom-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  backdrop-filter: blur(20px);
-}
-
-.nav-icon {
-  font-size: 34px;
-  color: white;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.nav-icon.active {
-  color: white;
-  transform: scale(1.1);
-}
-
-.nav-icon:hover {
-  transform: scale(1.15);
 }
 
 .search-icon {
@@ -84,7 +45,7 @@ img {
 
 .arrow-left {
   position: absolute;
-  right: 25px;
+  right: 25px;           
   top: 50%;
   transform: translateY(-50%);
   font-size: 34px;
@@ -95,4 +56,13 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.texto {
+    color: white;
+    font-size: 28px;
+    font-family: Jockey One;
+    margin: 40px;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    line-height: 1.5;
 }
