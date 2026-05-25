@@ -22,15 +22,42 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 
-.search-icon {
-    position: absolute;
-    top: 28px;
-    right: 35px;
 
-    font-size: 42px;
-    color: black;
+.search-icon {
+  background: white;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 28px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+   position: absolute;
+  top: 15px;
+  right: 15px;
 }
 
+
+.arrow-left {
+  position: absolute;
+  right: 25px;           
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 34px;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.texto {
+    color: white;
+    font-size: 28px;
+    font-family: Jockey One;
+    margin: 40px;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+    line-height: 1.5;
+}
 .texto {
     color: white;
     font-size: 28px;
