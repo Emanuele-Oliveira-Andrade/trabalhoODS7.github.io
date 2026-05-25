@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    background:#7F9DCA;
+    font-family: Arial, sans-serif;
+}
+
+/* Área superior */
+.topo{
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Botão branco */
+.container-botao{
+    text-align:center;
+}
+
+.meu-botao{
+    background:#DCEBFF;
+
+    padding: 12px 95px;
+
+    border-radius:50px;
+
+    display:inline-block;
+
+    color:black;
+
+    font-size:45px;
+    font-weight:bold;
+
+    box-shadow:0 4px 5px rgba(0,0,0,0.3);
+}
+
+/* Lupa */
+.search-icon{
+    position:absolute;
+
+    right:35px;
+    top:5px;
+
+    background:white;
+
+    border-radius:50%;
+
+    padding:8px;
+
+    font-size:45px;
+
+    color:black;
+}
+
+/* Conteúdo */
+.conteudo{
+    margin-top:90px;
+}
+
+/* Texto */
+.texto{
+    color:white;
+
+    font-size:28px;
+
+    margin-left:70px;
+    margin-right:70px;
+    margin-bottom:65px;
+
+    line-height:1.5;
+
+    text-shadow:3px 3px 4px rgba(0,0,0,0.5);
+}
