@@ -1,29 +1,41 @@
+h1 {
+        color: rgb(219, 215, 215);
+        font-family: Jockey One;
+        font-size: 70px;
+        text-shadow: 4px 4px 5px rgba(0,0,0,0, 0.3);
+        text-align: center;
+    }
 body {
-    background-color: #7F9DCA;
-    margin: 0;
-    font-family: Arial, sans-serif;
+  background-color: 7F9DCA;
+  background-size: cover;          
+  background-position: center;    
+  background-repeat: no-repeat;    
+  background-attachment: fixed;    
+  height: 100vh;                 
+  margin: 0;
 }
 
-.container-botao {
-    text-align: center;
-    margin-top: 20px;
+.elemento-transparente {
+  opacity: 0.5; 
 }
 
+img {
+    display: block; 
+     margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto; 
+    }
 .meu-botao {
     background-color: #D5E6FF;
     padding: 18px 180px;
-    display: inline-block;
-    border-radius: 90px;
     margin: 5px;
     text-decoration: none;
+    display: inline-block; 
+    border-radius: 90px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    color: black;
-    font-size: 42px;
-    font-weight: bold;
-
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
-
 
 .search-icon {
   background: white;
@@ -59,16 +71,4 @@ a {
     margin: 40px;
     text-shadow: 3px 3px 4px rgba(0,0,0,0.5);
     line-height: 1.5;
-}
-.texto {
-    color: white;
-    font-size: 28px;
-
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 70px;
-
-    line-height: 1.6;
-
-    text-shadow: 3px 3px 4px rgba(0,0,0,0.4);
 }
